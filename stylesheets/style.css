@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto:wght@300;400&display=swap');
+
+#myDiv {
+    background-color: red;
+    }
+
+.myClass > #myDiv {
+        color: blue;
+}
+
+
+* {
+    font-family:Arial sans-serif;
+    }
+
+
+.my-class {
+        font-family: Times New Roman, serif;
+        }
+
+
+h1 {
+font-family: Boogaloo;
+}
+
+h2, h3 {
+    font-family: Georgia;
+}
+
+#education{
+ background-color: #c3f0ca;
+}
+
+education h2{
+color: red;    
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 1.2rem; /* Aplica un tamaño de fuente de 1.2rem */
+  }
+
+#foto{
+    border: 1pt solid black;
+    padding: 1.1rem;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+#video{
+    text-align: center;
+
+}
+
+    
