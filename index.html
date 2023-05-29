@@ -1,8 +1,26 @@
 <html>
  
+<head>
+<link rel="stylesheet" href="stylesheets/style.css">
+</head>
 <body>
- 
+<h1>This is a heading</h1>
+</body>
+
+
 <h1> JEFFERSON ANDRES ERAS LINDAO </h1>
+
+<div id="myDiv">
+	This text is red.
+	</div>
+	<div class="myClass">
+	<div id="myDiv">
+	This text is blue.
+	</div>
+	</div>
+
+<body>
+
 
 <div>
  <table border="1">
@@ -33,6 +51,9 @@
    <div>
      
    </div>
+
+<section id="education" itemprop="education">
+	<h2 class="titulo">Education</h2>
 
 <h2>Skills</h2>
 	<div>
@@ -99,48 +120,56 @@
 <h2> Lenguajes de Programación</h2>
 
 	<div>
-		<img src="http://www.forcode.es/wp-content/uploads/2012/12/Logo-Java.jpg" width="100"
+		<img id="foto" src="http://www.forcode.es/wp-content/uploads/2012/12/Logo-Java.jpg" width="100"
      height="100">
 	</div>
 
 	<div>
 	<p>Videos Recomendados:</p>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/rbuYtrNUxg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rbuYtrNUxg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</div>
+
+	<section>
+
+
+	</section>
 
 <h2> Ubicaciones y Localidad</h2>
 	
 	<div>
-	<meta charset="utf-8" />
-<head>
-	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+		<meta charset="utf-8" />
+	
+		<head>
+			<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	
+			<style>
+				#map {
+					widh: 50px;
+					height: 500px;
+				}
+			</style>
+	
+		</head>
+	
+		<body>
+			<div id="map"></div>
+			<script>
 
- <style>
-  #map { 
-  widh: 50px;
-  height: 500px; }
- </style>
- 
- </head>
-  <body>
-   <div id="map"></div>
- <script>
- 
-var map = L.map('map').
-setView([41.66, -4.72], 
-14);
- 
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-    maxZoom: 18
-}).addTo(map);
+				var map = L.map('map').
+					setView([41.66, -4.72],
+						14);
 
-L.control.scale().addTo(map);
-L.marker([41.66, -4.71], {draggable: true}).addTo(map);
+				L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+					attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+					maxZoom: 18
+				}).addTo(map);
 
- </script>
- </body> 
+				L.control.scale().addTo(map);
+				L.marker([41.66, -4.71], { draggable: true }).addTo(map);
+
+			</script>
+		</body>
 	</div>
 
 
