@@ -49,7 +49,6 @@ main {
 
 #informacion {
     border:  transparent;
-    color: white;
     font-family: Sarala;
     background-color: #001e1d;
     width: 47%;
@@ -80,7 +79,7 @@ table{
     width: 100%;
     height: 100%;
     table-layout: fixed;
-    font-size: 15pt;  
+    font-size: 15pt;
 }
 
 caption,th{
