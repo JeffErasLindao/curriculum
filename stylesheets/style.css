@@ -32,7 +32,7 @@ html, body {
   }
 
 main {
-    background-image: url("/imagenes/fondoMain1.jpg");
+    background-color: #001e1d;
     display: flex;
     row-gap: 0.5rem;
     column-gap: 0.5rem;
@@ -51,13 +51,13 @@ main {
     border:  transparent;
     color: white;
     font-family: Sarala;
-    background-image: url("/imagenes/fondoMain1.jpg");
+    background-color: #001e1d;
     width: 47%;
 }
 
 #foto {
     border: transparent;
-    background-image: url("/imagenes/fondoMain1.jpg");
+    background-color: #001e1d;
     width: 47%;
 }
 
