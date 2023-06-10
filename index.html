@@ -2,70 +2,124 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="keywords" content="currículum, trabajo, habilidades">
-  <meta name="description" content="Mi currículum vitae en línea">
-  <meta name="author" content="Jefferson Eras">
-  <title>Curriculum - Jefferson Eras</title>
-  <link rel="stylesheet" href="stylesheets/style.css">
+  <title>Mi Curriculum</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 
 <body>
-  <header class="encabezado fixed-top navbar-expand-lg">
+
+  <header class="encabezado">
     <h1 class="tituloPagina" id="page-top">Mi Curriculum</h1>
     <div class="logoJeff">
       <img class="imgRedondaLogo" src="imagenes/fotoJefferson.png" alt="..." />
     </div>
 
-
+    <section id="nombreApellidos">JEFFERSON ANDRES ERAS LINDAO</section>
   </header>
 
-  <!-- INFORMACION PERSONAL -->
+  
 
-  <main>
-    <section id="nombreApellidos">JEFFERSON ANDRES ERAS LINDAO</section>
+  <div class="containerMain">
 
-    <section id="containerInformacion">
-      <div>
+    <section class="sidebar">
 
-        <table border="5">
-          <caption>INFORMACION PERSONAL</caption>
-          <p></p>
-          <th>Direccion:</th>
-          <td>Sur Oeste</td>
-          </tr>
-          <tr>
-            <th>Email:</th>
-            <td>jeras@espol.edu.ec</td>
-          </tr>
-          <tr>
-            <th>Telefono:</th>
-            <td>09999999</td>
-          </tr>
-          <tr>
-            <th>Edad:</th>
-            <td>30 años</td>
-          </tr>
-          <tr>
-            <th>Estado Civil:</th>
-            <td>Soltero</td>
-          </tr>
-          <tr>
-            <th>Cedula Identidad:</th>
-            <td>09999999</td>
-          </tr>
-        </table>
+      <section id="fotoJeff">
+        <img class="imgRedondaPerfil" src="imagenes/fotoJefferson.png" alt="..." />
+      </section>
 
-      </div>
+      <section id="containerInformacion">
+        <div>
+          <table border="5">
+            <caption>INFORMACION PERSONAL</caption>
+            <p></p>
+            <th>Direccion:</th>
+            <td>Sur Oeste</td>
+            </tr>
+            <tr>
+              <th>Email:</th>
+              <td>jeras@espol.edu.ec</td>
+            </tr>
+            <tr>
+              <th>Telefono:</th>
+              <td>09999999</td>
+            </tr>
+            <tr>
+              <th>Edad:</th>
+              <td>30 años</td>
+            </tr>
+            <tr>
+              <th>Estado Civil:</th>
+              <td>Soltero</td>
+            </tr>
+            <tr>
+              <th>Cedula Identidad:</th>
+              <td>09999999</td>
+            </tr>
+          </table>
+
+        </div>
+      </section>
+
+
+
+
+      <section class="containerRedSocial" id="redesSociales">
+        <div class="subCenter">
+          <h2>REDES SOCIALES</h2>
+        </div>
+
+        <div class="cajaRedesSociales">
+          <div class="cajaSocial">
+            <button class="btn-social" id="twitter">
+              <a href="https://twitter.com/CahyoPu63086578/status/1634085318470270976">
+                <img src="/imagenes/twitter.svg" alt="Logo de Twitter">
+              </a>
+            </button>
+          </div>
+
+          <div class="cajaSocial">
+            <button class="btn-social" id="facebook">
+              <a href="https://www.facebook.com/Xndresrockerboy">
+                <img src="/imagenes/facebook.svg" alt="Logo de Facebook">
+              </a>
+            </button>
+          </div>
+
+          <div class="cajaSocial">
+            <button class="btn-social" id="instagram">
+              <a href="https://www.instagram.com/jeffersonandresao/?hl=es">
+                <img src="/imagenes/instagram.svg" alt="Logo de instagram">
+              </a>
+            </button>
+          </div>
+
+          <div class="cajaSocial" id="linkedIn">
+            <button class="btn-social" id="linked">
+              <a href="https://ec.linkedin.com/in/jefferson-eras-lindao-b81979b0">
+                <img src="/imagenes/linked.svg" alt="Logo de LinkedIn">
+              </a>
+            </button>
+          </div>
+
+
+
+
+
+        </div>
+
+      </section>
+
+
+
     </section>
 
-    <section id="fotoJeff">
-      <img class="imgRedondaPerfil" src="imagenes/fotoJefferson.png" alt="..." />
-    </section>
 
-  </main>
 
-  <!-- HABILIDADES -->
+
+    <div class="contentPrincipal">
+
+
+        <!-- HABILIDADES -->
   <section class="container" id="containerHabilidades">
 
     <div class="subCenter">
@@ -122,262 +176,184 @@
   </section>
 
 
-
-  <!-- EXPERIENCIA -->
-  <section class="container" id="containerExperiencia">
-    <div class="subCenter">
-      <h2>EXPERIENCIA</h2>
-    </div>
-
-    <div class=containerExperiencia>
-      <ul class="experienciaListas">
-        <li>
-          <img class="imgExp" src="imagenes/poligrafica.jpeg" alt="..." />
-
-          <div class="experienciaPanel">
-            <div class="timeline-heading">
-              <h4>Poligrafica S.A - Asistente de Bodega (2018-2019)</h4>
+  
+          <!-- EXPERIENCIA -->
+          <section class="containerExperiencia" id="containerExperiencia">
+            <div class="subCenter">
+              <h2>EXPERIENCIA</h2>
             </div>
-            <div class="timeline-body">
-              <p class="text-muted">Asistir al Jefe de Bodega en todas las actividades Logisticas</p>
+        
+            <div class=containerExperiencia>
+              <ul class="experienciaListas">
+                <li>
+                  <img class="imgExp" src="imagenes/poligrafica.jpeg" alt="..." />
+        
+                  <div class="experienciaPanel">
+                    <div class="timeline-heading">
+                      <h4>Poligrafica S.A - Asistente de Bodega (2018-2019)</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">Asistir al Jefe de Bodega en todas las actividades Logisticas</p>
+                    </div>
+                  </div>
+                </li>
+        
+                <li>
+                  <img class="imgExp" src="imagenes/regalado.jpg" alt="..." />
+        
+                  <div class="experienciaPanel">
+                    <div class="timeline-heading">
+                      <h4>COMIRSA - Supervisor de Logistica (2015-2018)</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">Supervisar Personal del departamento de despacho y entrega</p>
+                    </div>
+                  </div>
+                </li>
+        
+                <li>
+                  <img class="imgExp" src="imagenes/tecelec.jpeg" alt="..." />
+        
+                  <div class="experienciaPanel">
+                    <div class="timeline-heading">
+                      <h4>TECELEC - Digitador (2014-2015)</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">Transcribir y realizar reportes solicitado por el gerente general</p>
+                    </div>
+                  </div>
+                </li>
+        
+              </ul>
             </div>
-          </div>
-        </li>
+        
+          </section>
+  
+  
+  
+  
+<!-- INTERESES -->
+<section class="containerInteres" id="containerInteres">
+  <h2> INTERESES</h2>
 
-        <li>
-          <img class="imgExp" src="imagenes/regalado.jpg" alt="..." />
+  <h2> Lenguajes de Programación</h2>
 
-          <div class="experienciaPanel">
-            <div class="timeline-heading">
-              <h4>COMIRSA - Supervisor de Logistica (2015-2018)</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">Supervisar Personal del departamento de despacho y entrega</p>
-            </div>
-          </div>
-        </li>
+  <div>
+    <img id="foto" src="http://www.forcode.es/wp-content/uploads/2012/12/Logo-Java.jpg" width="100"
+     height="100">
+  </div>
 
-        <li>
-          <img class="imgExp" src="imagenes/tecelec.jpeg" alt="..." />
+  <div>
+    <h2>Videos Recomendados:</H2>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rbuYtrNUxg4"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+</section>
 
-          <div class="experienciaPanel">
-            <div class="timeline-heading">
-              <h4>TECELEC - Digitador (2014-2015)</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">Transcribir y realizar reportes solicitado por el gerente general</p>
-            </div>
-          </div>
-        </li>
+<!-- LOCALIZACION -->
+<section class="container" id="containerLocalizacion">
+  <h2> Ubicaciones y Localidad</h2>
+  
+  <div>
+    <meta charset="utf-8" />
+  
+    <head>
+      <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  
+      <style>
+        #map {
+          widh: 50px;
+          height: 500px;
+        }
+      </style>
+  
+    </head>
+  
+    <body>
+      <div id="map"></div>
+      <script>
 
+        var map = L.map('map').
+          setView([41.66, -4.72],
+            14);
+
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+          maxZoom: 18
+        }).addTo(map);
+
+        L.control.scale().addTo(map);
+        L.marker([41.66, -4.71], { draggable: true }).addTo(map);
+
+      </script>
+    </body>
+  </div>
+</section>
+
+  <!-- RESUME -->
+  <section class="container" id="containerResume">
+    <nav>
+      <ul>
+        <li><a href="#containerInformacion">INFORMACION</a></li>
+        <li><a href="#containerHabilidades">HABILIDADES</a></li>
+        <li><a href="#containerExperiencia">EXPERIENCIA</a></li>
+        <li><a href="#containerEducacion">EDUCACION</a></li>
+        <li><a href="#redesSociales">REDES SOCIALES</a></li>
       </ul>
-    </div>
-
+    </nav>
   </section>
 
-
-
-
-
-  <!-- EDUCACION -->
-
-  <section class="container" id="containerEducacion">
-    <div class="subCenter">
-      <h2>EDUCACION</h2>
-    </div>
-
-    <div class=containerEducacion>
-      <ul class="educacionListas">
-
-        <li>
-          <div class="experienciaPanel">
-            <div class="timeline-heading">
-              <h4>Escuela Superior Politecnica del Litoral</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">Ingenieria en Ciencias de la computación</p>
-            </div>
-          </div>
-          <img class="imgRedonda" src="imagenes/espol.png" alt="..." />
-        </li>
-
-        <li>
-          <div class="experienciaPanel">
-            <div class="timeline-heading">
-              <h4>Colegio Fiscal Aguirre Abad</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">Bachiller Técnico en comercio y administración</p>
-            </div>
-          </div>
-          <img class="imgRedonda" src="imagenes/aguirre.jpg" alt="..." />
-        </li>
-      </ul>
-    </div>
-
-  </section>
-
-
-
-  <!-- REFERENCIAS -->
-  <section class="container" id="redesSociales">
-    <div class="subCenter">
-      <h2>REDES SOCIALES</h2>
-    </div>
-
-    <div class="cajaRedesSociales">
-      <div class="cajaSocial">
-        <button class="btn-social" id="twitter">
-          <a href="https://twitter.com/CahyoPu63086578/status/1634085318470270976">
-            <img src="/imagenes/twitter.svg" alt="Logo de Twitter">
-          </a>
-        </button>
-      </div>
-
-      <div class="cajaSocial">
-        <button class="btn-social" id="facebook">
-          <a href="https://www.facebook.com/Xndresrockerboy">
-            <img src="/imagenes/facebook.svg" alt="Logo de Facebook">
-          </a>
-        </button>
-      </div>
-
-      <div class="cajaSocial">
-        <button class="btn-social" id="instagram">
-          <a href="https://www.instagram.com/jeffersonandresao/?hl=es">
-            <img src="/imagenes/instagram.svg" alt="Logo de instagram">
-          </a>
-        </button>
-      </div>
-
-      <div class="cajaSocial">
-        <button class="btn-social" id="linked">
-          <a href="https://ec.linkedin.com/in/jefferson-eras-lindao-b81979b0">
-            <img src="/imagenes/linked.svg" alt="Logo de LinkedIn">
-          </a>
-        </button>
-      </div>
-
-
-
-
-
-    </div>
-
-  </section>
-
-
-
-
-
-
-  <!-- INTERESES -->
-  <section class="container" id="containerInteres">
-    <h2> INTERESES</h2>
-
-    <h2> Lenguajes de Programación</h2>
-
-    <div>
-      <img id="foto" src="http://www.forcode.es/wp-content/uploads/2012/12/Logo-Java.jpg" width="100"
-       height="100">
-    </div>
-
-    <div>
-      <h2>Videos Recomendados:</H2>
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rbuYtrNUxg4"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-    </div>
-  </section>
-
-  <!-- LOCALIZACION -->
-  <section class="container" id="containerLocalizacion">
-    <h2> Ubicaciones y Localidad</h2>
-    
-    <div>
-      <meta charset="utf-8" />
-    
-      <head>
-        <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
-    
-        <style>
-          #map {
-            widh: 50px;
-            height: 500px;
-          }
-        </style>
-    
-      </head>
-    
-      <body>
-        <div id="map"></div>
-        <script>
+<!-- FORMULARIO DE CONTACTO -->
+<section class="containerForm" id="containerForm">
+  <div class="subCenter">
+    <h2>CONTACTANOS</h2>
+  </div>
   
-          var map = L.map('map').
-            setView([41.66, -4.72],
-              14);
   
-          L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-            maxZoom: 18
-          }).addTo(map);
-  
-          L.control.scale().addTo(map);
-          L.marker([41.66, -4.71], { draggable: true }).addTo(map);
-  
-        </script>
-      </body>
-    </div>
-  </section>
+  <div>
+    <form id="formularioContacto">
+      <div>
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required="required" />
+      </div>
+      <div>
+        <label for="correo">Correo:</label>
+        <input type="text" id="correo" name="correo" required="required" />
+      </div>
+      <div>
+        <p>Escriba el mensaje:</p>
+        <textarea id="mensaje" name="mensaje" rows="10" cols="50"></textarea>
+      </div>
+    </form>
+  </div>
+</section>
 
-    <!-- RESUME -->
-    <section class="container" id="containerResume">
-      <nav>
-        <ul>
-          <li><a href="#containerInformacion">INFORMACION</a></li>
-          <li><a href="#containerHabilidades">HABILIDADES</a></li>
-          <li><a href="#containerExperiencia">EXPERIENCIA</a></li>
-          <li><a href="#containerEducacion">EDUCACION</a></li>
-          <li><a href="#redesSociales">REDES SOCIALES</a></li>
-        </ul>
-      </nav>
-    </section>
 
-  <!-- FORMULARIO DE CONTACTO -->
-  <section class="container" id="containerForm">
-    <div class="subCenter">
-      <h2>CONTACTANOS</h2>
-    </div>
+
+
+
+
     
-    
-    <div>
-      <form id="formularioContacto">
-        <div>
-          <label for="nombres">Nombres:</label>
-          <input type="text" id="nombres" name="nombres" required="required" />
-        </div>
-        <div>
-          <label for="correo">Correo:</label>
-          <input type="text" id="correo" name="correo" required="required" />
-        </div>
-        <div>
-          <p>Escriba el mensaje:</p>
-          <textarea id="mensaje" name="mensaje" rows="10" cols="50"></textarea>
-        </div>
-      </form>
+
     </div>
-  </section>
 
 
 
-  <footer>
-    <P>Copyright © 2023 Jefferson Eras</P>
-  </footer>
+  </div>
+
+
+
+
+
+<footer>
+  <P>Copyright © 2023 Jefferson Eras</P>
+</footer>
+
+  
 
 </body>
-
-
 
 </html>
