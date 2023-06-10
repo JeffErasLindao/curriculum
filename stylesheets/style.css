@@ -13,7 +13,7 @@
 }
 
 .sidebar {
-  background-image: url(/imagenes/fondoMain1.jpg);
+  background-image: url("../imagenes/fondoMain1.jpg");
   padding: 5%;
 }
 
