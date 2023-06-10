@@ -1,48 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto:wght@300;400&display=swap');
 
-#myDiv {
-    background-color: red;
-    }
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  section{
+    border: 1px solid grey;
+    border-radius: 1%;
 
-.myClass > #myDiv {
-        color: blue;
+  }
+  
+  body {
+    margin:  0;
+    padding: 0;
+  }
+  
+  nav {
+    width: 100%;
+    text-align: center;
+    padding: 2% 0 2% 0;
+  }
+  
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+
+main {
+    background-image: url("/imagenes/fondoMain1.jpg");
+    display: flex;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#nombreApellidos {
+    background-color:#f9bc60;
+    color:black;
+    width: 100%;
+    font-size: 50px;
+}
+
+#informacion {
+    border:  transparent;
+    color: white;
+    font-family: Sarala;
+    background-image: url("/imagenes/fondoMain1.jpg");
+    width: 47%;
+}
+
+#foto {
+    border: transparent;
+    background-image: url("/imagenes/fondoMain1.jpg");
+    width: 47%;
 }
 
 
-* {
-    font-family:Arial sans-serif;
-    }
-
-
-.my-class {
-        font-family: Times New Roman, serif;
-        }
-
+header,footer {
+    background-color: #001e1d;
+    color: white;
+    padding: 20px;
+}
 
 h1 {
-font-family: Boogaloo;
+    font-family: Roboto;
 }
 
 h2, h3 {
-    font-family: Georgia;
+    font-family: Telex;
 }
 
-#education{
- background-color: #c3f0ca;
+table{
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    font-size: 15pt;  
 }
 
-education h2{
-color: red;    
+caption,th{
+    font-family: Roboto;
+    font-style: bold;
 }
 
-a {
-    text-decoration: none; /* Elimina el subrayado */
-    font-size: 1.2rem; /* Aplica un tamaño de fuente de 1.2rem */
-  }
 
-#foto{
-    border: 1pt solid black;
+.container {
+    background-color: #abd1c6;
+    flex: 1;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#foto {
     padding: 1.1rem;
     margin-top: auto;
     margin-left: auto;
@@ -50,9 +105,15 @@ a {
     margin-bottom: auto;
 }
 
-#video{
+#video {
     text-align: center;
 
 }
 
-    
+.imgRedonda{
+    border: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+
+    }
